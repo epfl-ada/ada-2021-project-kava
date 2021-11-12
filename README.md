@@ -32,22 +32,21 @@ We used the following methods and libraries in order to deal with the Quotebank 
 ## Proposed timeline:
 | Deadline | Description |
 | ------------- | ------------- |
-| 19.11  | Definition of project description, goals, and feasibility  |
-| 19.11  | Load the data (Quotebank and Wikidata datasets) and merge datasets  |
-| 19.11  | Collect all possible quotations related to the subject of Brexit  |
-| 19.11  | Identify and filter which quotes are valid for our analysis  |
-| 19.11  | Examine and clean the data (generic and NLP cleaning)  |
-| 19.11  | Categorize the opinions of speakers supporting or opposing Brexit  |
-| 19.11  | Find other terms that appear in quotations, get commonalities for those who are in favor (i.e., "historical reasons" or "immigration") and against (i.e., "economy" or "travel"). These terms will be possible arguments for why speakers support or not Brexit  |
-| 19.11  | Enrich the data with Wikidata (additional dataset), linking speakers’ quotes with more information (age, nationality, gender, profession...). This information could be used to enrich the analysis (i.e., show the opinion and the arguments of the speakers on a map depending on their birthplace)  |
-| 19.11  | Explore and visualize the data  |
-| 19.11  | Model and interpret data, draw first conclusions and address key project issues  |
-| 19.11  | Review feedback of Milestone 2  |
-| 19.11  | Complete analysis and final conclusions of questions 1, 2 and 3 |
-| 19.11  | Add the time variable in the analysis, studying the change in the opinion and arguments of the speakers during the time, and especially due to important events related to Brexit  |
-| 19.11  | Load the data (Quotebank and Wikidata datasets) and merge datasets  |
-| 19.11  | Storytelling and communication  |
-| 19.11  | Final conclusions (summary, results, and probelems encountered during the project)  |
+| 22.10  | Definition of project description, goals, and feasibility  |
+| 27.10  | Load the data (Quotebank and Wikidata datasets) and merge datasets  |
+| 30.10  | Collect all possible quotations related to the subject of Brexit  |
+| 01.11  | Identify and filter which quotes are valid for our analysis  |
+| 04.11  | Examine and clean the data (generic and NLP cleaning)  |
+| 06.11  | Categorize the opinions of speakers supporting or opposing Brexit  |
+| 08.11  | Find other terms that appear in quotations, get commonalities for those who are in favor (i.e., "historical reasons" or "immigration") and against (i.e., "economy" or "travel"). These terms will be possible arguments for why speakers support or not Brexit  |
+| 10.11  | Enrich the data with Wikidata (additional dataset), linking speakers’ quotes with more information (age, nationality, gender, profession...). This information could be used to enrich the analysis (i.e., show the opinion and the arguments of the speakers on a map depending on their birthplace)  |
+| 10.11  | Explore and visualize the data  |
+| 11.11  | Model and interpret data, draw first conclusions and address key project issues  |
+| 26.11  | Review feedback of Milestone 2  |
+| 01.12  | Complete analysis and final conclusions of questions 1, 2 and 3 |
+| 06.12  | Add the time variable in the analysis, studying the change in the opinion and arguments of the speakers during the time, and especially due to important events related to Brexit  |
+| 10.12  | Storytelling and communication  |
+| 14.12  | Final conclusions (summary, results, and probelems encountered during the project)  |
 
 ## Questions for TAs (optional):
 - What kind of problems can we expect?
