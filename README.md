@@ -1,5 +1,5 @@
 ## Title:
-Why did Brexit occur?
+Tracking opinions on EU referendum through data
 
 ## Abstract:
 The UK's withdrawal from the EU, known as Brexit, is one of the most significant events of the 21st century. It has changed the whole life to a greater or lesser degree of millions of people, with political, economic, and social consequences, among other things. Nevertheless, how could this happen?
@@ -8,10 +8,10 @@ In this study, we intend to clarify why Brexit has won over permanence in the EU
 
 ## Research Questions:
 A list of research questions you would like to address during the project:
-- Which percentage of the speakers supported or was against Brexit?
-- What arguments did the members of each category use to support their beliefs? (i.e., “historical reasons” or “immigration” in favor; i.e., “economy” or “travel” against).
-- Who were the main supporters of each of the categories? Analyze them according to age, nationality, gender, occupation, place of residence.  
-- How did the opinion towards Brexit change during the 5 year span? Did the arguments of each group also change?*
+- How did people really feel towards Brexit?
+- What arguments did the members of each category use to support their beliefs?
+- Which are the dominant features of the speakers in each group?
+- How did the opinion towards Brexit change during the 5-year span? Did the arguments of each group also change?
 
 ## Proposed additional datasets (if any):
 - Wikidata: open and free knowledge base that collects structured data to provide support to services such as Wikipedia. The repository contains mainly items, and each of them has a unique item identifier (QID). Quotebank (out main dataset), also contains this unique identifier (QID) for each of the speakers, so the connection between both datasets can be made easily through this common identifier. Specifically, the project is using the speaker_attributes.parquet dataset provided by the professors, which contains ~9M unique Wikidata entities. Each entity has the following information: id, aliases, date_of_birth, nationality, gender, lastrevid, ethnic_group, US_congress_bio_ID, occupation, party, academic_degree, label, candidacy, type, and religion, each identified by a QID. The dataset is loaded as a Pandas dataframe using the read_parquet function (using PyArrow). Then, the wikidata_labels_descriptions_quotebank.csv is used in order to map each QID with its value.
@@ -24,10 +24,10 @@ We used the following methods and libraries in order to deal with the Quotebank 
 - textblob: python library for processing textual data.
 
 ## Organization within the team:
-- [Alvaro] README, Introduction of the project (point 1), Analysis of speakers according to speakers' attributes (point 3.4 - Question 3).
-- [Kamil] Description of the data (point 2), Load data and filtering (point 3.1), Merge with Wikidata (point 3.3.1)
-- [Alicia] Examine and generic clean up (point 3.2), Expand Quotebank with Wikidata dumps, deep cleaning, exploration (point 3.3 except 3.3.1)
-- [Victor] Analysis of percentage of speakers that support/oppose Brexit (point 3.4 - Question 1), Analysis of arguments that the members of each category use to support their beliefs (point 3.4 - Question 2)
+- [Alvaro] README, Introduction of the project (point 1), Analysis of speakers according to speakers' attributes (point 3.4 - Question 3), Interactive plots on datastory, Text in datastory.
+- [Kamil] Description of the data (point 2), Load data and filtering (point 3.1), Merge with Wikidata (point 3.3.1), Analysis of the opinion change towards Brexit  during the 5-year span (point 3.4 - Question 4)
+- [Alicia] Examine and generic clean up (point 3.2), Expand Quotebank with Wikidata dumps, deep cleaning, exploration (point 3.3 except 3.3.1), Analysis of arguments that the members of each category use to support their beliefs (point 3.4 - Question 2, part of LDA implementation)
+- [Victor] Analysis of percentage of speakers that support/oppose Brexit (point 3.4 - Question 1), Analysis of arguments that the members of each category use to support their beliefs (point 3.4 - Question 2: part of Word frequency implementation), Creation and host of web for datastory, Text in datastory.
 
 ## Proposed timeline:
 | Deadline | Description |
@@ -51,6 +51,3 @@ We used the following methods and libraries in order to deal with the Quotebank 
 ## Questions for TAs (optional):
 - What kind of problems can we expect?
 - Is it feasible in our project to show the changes in the opinions and arguments of the speakers during time?
-
-## Additional notes:
-*This point will be subsequently evaluated as the project progresses.
